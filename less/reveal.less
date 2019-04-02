@@ -9,6 +9,8 @@
         position: absolute;
         text-align: center;
         top: 50%;
+        // Needed to override icons.less
+        transform: translateY(-50%) !important;
         vertical-align: middle;
         width: 100%;
 
@@ -37,6 +39,7 @@
 
     .reveal-image {
         display: block;
+        min-height: 50px;
     }
 
     .reveal-image.reveal-right {
